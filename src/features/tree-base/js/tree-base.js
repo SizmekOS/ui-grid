@@ -1010,7 +1010,7 @@
         if ( grid.options.showTreeRowHeader === false ){
           newVisibility = false;
         }
-        if ( grid.options.treeRowHeaderAlwaysVisible === false && grid.treeBase.numberLevels <= 0 ){
+        if ( grid.options.treeRowHeaderAlwaysVisible === false && grid.treeBase.numberLevels <= 1 ){
           newVisibility = false;
         }
         if ( rowHeader.visible !== newVisibility ) {
